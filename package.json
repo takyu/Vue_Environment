@@ -1,0 +1,32 @@
+{
+  "name": "basic_vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode development --progress",
+    "prod": "NODE_ENV=production webpack --mode production --progress",
+    "dstart": "webpack serve --progress --mode development",
+    "pstart": "NODE_ENV=production webpack serve --progress --mode production"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.31",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.6",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.4.1",
+    "sass": "^1.49.8",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "vue": "^3.2.31"
+  }
+}
